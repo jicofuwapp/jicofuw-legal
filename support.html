@@ -16,10 +16,14 @@ body{min-height:100%;background:radial-gradient(120% 70% at 10% -10%,#1c3a2c 0%,
 h1{font-size:clamp(28px,6vw,36px);line-height:1.15;margin:0 0 12px;font-weight:600}
 .meta{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:13px;color:var(--mute);margin:0}
 .chip{display:inline-block;margin-top:14px;padding:6px 12px;border-radius:999px;background:#2F7A5833;border:1px solid #2F7A5866;color:var(--sage);font-family:-apple-system,sans-serif;font-size:12px;font-weight:600}
-.card{background:rgba(21,36,28,.88);border:1px solid var(--line);border-radius:18px;padding:18px;margin:0 0 14px}
+.card{background:rgba(21,36,28,.88);border:1px solid var(--line);border-radius:18px;padding:18px 18px 8px;margin:0 0 14px}
 h2{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--sage);margin:0 0 10px;font-weight:700}
 p{margin:0 0 12px;font-size:16px}
-.mail{display:block;margin:8px 0 0;padding:16px;border-radius:16px;background:rgba(47,122,88,.18);border:1px dashed #2F7A5866;text-align:center;font-family:-apple-system,sans-serif;font-size:17px;font-weight:650;color:var(--mist);letter-spacing:.02em}
+ul{margin:0 0 14px;padding:0;list-style:none}
+li{position:relative;margin:0 0 10px;padding:12px 14px 12px 38px;background:rgba(14,26,20,.55);border:1px solid var(--line);border-radius:14px;font-size:15px;color:var(--mist)}
+li::before{content:"";position:absolute;left:14px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:var(--leaf);box-shadow:0 0 0 4px #2F7A5833}
+.mail{display:block;margin:8px 0 14px;padding:16px;border-radius:16px;background:rgba(47,122,88,.18);border:1px dashed #2F7A5866;text-align:center;font-family:-apple-system,sans-serif;font-size:17px;font-weight:650;color:var(--mist);letter-spacing:.02em}
+.note{font-family:-apple-system,sans-serif;font-size:13px;color:var(--mute);border-left:3px solid var(--leaf);padding:8px 0 8px 12px;margin:4px 0 14px}
 .foot{margin-top:22px;text-align:center;font-family:-apple-system,sans-serif;font-size:12px;color:var(--mute)}
 .foot strong{color:var(--sage);font-weight:650}
 </style>
@@ -29,15 +33,83 @@ p{margin:0 0 12px;font-size:16px}
   <header class="hero">
     <p class="kicker">Jicofuw · Help</p>
     <h1>Support</h1>
-    <p class="meta">Operator: Jicofuw</p>
-    <span class="chip">No live inbox</span>
+    <p class="meta">Operator: Jicofuw · Last updated: September 18, 2026</p>
+    <span class="chip">On-device help</span>
   </header>
 
   <section class="card">
-    <h2>How to reach us</h2>
-    <p>For privacy, safety, or billing questions about this local app, use Contact Jicofuw in Settings. There is no live inbox.</p>
+    <h2>About this page</h2>
+    <p>Jicofuw keeps evening replies, habit marks, and Demo samples on this device. This Support page answers common questions about using the app, Reflection Credits, and permissions.</p>
+  </section>
+
+  <section class="card">
+    <h2>Getting started</h2>
+    <ul>
+      <li>Agree to Privacy Policy and Terms of Use, then tap Enter. No Apple ID, email, or password is required by Jicofuw.</li>
+      <li>On Today, tap Reflect on My Day to open the evening editor.</li>
+      <li>Type your words, or tap the mic to record and convert them into editable text on this device.</li>
+      <li>Continue to preview (preview does not use a credit), then Use Reflection Credit &amp; Keep to save.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Reflection Credits</h2>
+    <ul>
+      <li>New installs receive 100 Reflection Credits as a welcome balance on this device.</li>
+      <li>Saving one newly confirmed reply costs 1 Reflection Credit after you confirm the spend dialog.</li>
+      <li>Recording, typing, preview, Demo posts, and habit marks are free.</li>
+      <li>Buy packs from Me → Add Reflection Credits, or Buy Reflection Credits when balance is short.</li>
+      <li>Credits arrive only after Apple verifies the purchase on the system payment sheet.</li>
+      <li>Credits stay on this device and cannot be restored after Delete Account or clearing app data.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Permissions</h2>
+    <ul>
+      <li>Microphone: tap the mic on the evening editor (Parent Helper Call). If denied, you can still type.</li>
+      <li>Camera: tap Take Photo on Compose or Me.</li>
+      <li>Photos: tap Add Photo on Compose or Me.</li>
+    </ul>
+    <p class="note">If a permission was denied earlier, open iOS Settings → Jicofuw to change it, then return to the same button.</p>
+  </section>
+
+  <section class="card">
+    <h2>Drafts, history &amp; habits</h2>
+    <ul>
+      <li>If you leave mid-session, Resume Draft or Start New may appear on the next launch.</li>
+      <li>Saved reflections lists finished evenings kept on this phone.</li>
+      <li>Habits marks bundled activities and book ideas that ship with the app.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Demo Circles</h2>
+    <p>Posts, likes, comments, Friends, and Demo notes are labeled Demo. They only change data on this install and are not delivered to other people. You can Report, Hide, or Block Demo items from the menus in Circles.</p>
+  </section>
+
+  <section class="card">
+    <h2>Log Out &amp; Delete Account</h2>
+    <ul>
+      <li>Log Out returns you to Enter and keeps local records on this phone.</li>
+      <li>Delete Account permanently removes replies, drafts, Demo history, media copies, preferences, reports, and remaining Reflection Credits from this install.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Reports</h2>
+    <p>Reports you file in the app stay on this device under Me → Reports. They are not automatically sent to a live review team.</p>
+  </section>
+
+  <section class="card">
+    <h2>Email</h2>
+    <p>For privacy, safety, or billing questions about this local app, you may write to the address below. There is no live chat inbox.</p>
     <span class="mail">support@jicofuw.example</span>
-    <p style="margin-top:14px">Reports you file stay on this device in Settings → Reports.</p>
+  </section>
+
+  <section class="card">
+    <h2>Legal</h2>
+    <p>Privacy Policy, Terms of Use, and Community Guidelines open inside the app from Me. The same English pages are also published for App Store links.</p>
   </section>
 
   <p class="foot">Operated by <strong>Jicofuw</strong> · Forest night kitchen edition</p>
