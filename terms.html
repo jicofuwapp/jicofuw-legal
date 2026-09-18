@@ -22,6 +22,10 @@ p{margin:0 0 12px;font-size:16px}
 .step{display:flex;gap:12px;align-items:flex-start;margin:0 0 12px;padding:12px;border-radius:14px;background:rgba(14,26,20,.55);border:1px solid var(--line)}
 .num{flex:0 0 28px;height:28px;border-radius:50%;display:grid;place-content:center;background:var(--leaf);color:var(--mist);font-family:-apple-system,sans-serif;font-size:13px;font-weight:700}
 .step p{margin:0;font-size:15px}
+ul{margin:0 0 14px;padding:0;list-style:none}
+li{position:relative;margin:0 0 10px;padding:12px 14px 12px 38px;background:rgba(14,26,20,.55);border:1px solid var(--line);border-radius:14px;font-size:15px;color:var(--mist)}
+li::before{content:"";position:absolute;left:14px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:var(--leaf);box-shadow:0 0 0 4px #2F7A5833}
+.note{font-family:-apple-system,sans-serif;font-size:13px;color:var(--mute);border-left:3px solid var(--leaf);padding:8px 0 8px 12px;margin:4px 0 14px}
 .foot{margin-top:22px;text-align:center;font-family:-apple-system,sans-serif;font-size:12px;color:var(--mute)}
 .foot strong{color:var(--sage);font-weight:650}
 </style>
@@ -31,26 +35,77 @@ p{margin:0 0 12px;font-size:16px}
   <header class="hero">
     <p class="kicker">Jicofuw · Legal</p>
     <h1>Terms of Use</h1>
-    <p class="meta">Operator: Jicofuw · Last updated: September 17, 2026</p>
+    <p class="meta">Operator: Jicofuw · Last updated: September 18, 2026</p>
     <span class="chip">Private evening replies</span>
   </header>
 
   <section class="card">
+    <h2>Agreement</h2>
+    <p>By checking the agreement box and tapping Enter, you agree to these Terms of Use and the Privacy Policy. If you do not agree, do not use Jicofuw.</p>
+  </section>
+
+  <section class="card">
     <h2>What Jicofuw is</h2>
-    <p>Jicofuw helps you keep a private on-device reply about one evening. It is not medical or diagnostic advice and does not rank your parenting.</p>
+    <p>Jicofuw helps you keep a private on-device reply about one evening at a time, mark bundled habits, and try Demo community samples. Operator name is Jicofuw.</p>
+    <p>Jicofuw is for personal, non-commercial use on your device. It is not medical, psychological, legal, or diagnostic advice and does not rank whether you were a good parent.</p>
+  </section>
+
+  <section class="card">
+    <h2>License</h2>
+    <p>We grant you a limited, revocable, non-exclusive license to use the app as provided through the App Store. You may not reverse engineer, resell, or misuse the app to harm others or violate law.</p>
   </section>
 
   <section class="card">
     <h2>Your account on this device</h2>
-    <div class="step"><span class="num">1</span><p>You may Log Out and keep local records on this phone.</p></div>
-    <div class="step"><span class="num">2</span><p>Delete Account permanently removes replies, Demo history, media copies, and remaining Reflection Credits.</p></div>
-    <div class="step"><span class="num">3</span><p>Demo community posts are local samples. Likes, comments, and messages are not conversations with other parents.</p></div>
+    <div class="step"><span class="num">1</span><p>Enter is a local session on this phone. No Apple ID, email, or password is required by Jicofuw.</p></div>
+    <div class="step"><span class="num">2</span><p>You may Log Out and keep local records on this phone.</p></div>
+    <div class="step"><span class="num">3</span><p>Delete Account permanently removes replies, drafts, Demo history, media copies, preferences, and remaining Reflection Credits from this install.</p></div>
+  </section>
+
+  <section class="card">
+    <h2>Evening replies</h2>
+    <ul>
+      <li>You start Reflect on My Day, confirm your words, preview without charge, then choose to keep a reply</li>
+      <li>Saving a new confirmed reply uses 1 Reflection Credit after you confirm the spend dialog</li>
+      <li>Recording, typing, preview, ordinary Demo posts, and habit marks are free</li>
+      <li>You are responsible for the words and photos you enter</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Demo community</h2>
+    <p>Circles, Friends, Compose, likes, comments, and Demo notes are labeled Demo. They change only the data on this device. They are not conversations with other parents and are not delivered off this phone.</p>
+    <p class="note">Follow the in-app Community Guidelines for Demo content. You may Report, Hide, or Block Demo items on this device.</p>
   </section>
 
   <section class="card">
     <h2>Reflection Credits</h2>
-    <p>1 Reflection Credit is used only after a new reply is successfully saved. Recording, transcript review, ordinary posts, and habits are free.</p>
-    <p>By entering you agree to these Terms and the Privacy Policy.</p>
+    <p>Reflection Credits are consumable digital items sold through Apple In-App Purchase. Pack titles and prices are shown in the shop. Credits are stored on this device after Apple verifies the purchase.</p>
+    <ul>
+      <li>1 Reflection Credit keeps one newly saved on-device reply</li>
+      <li>Failed, canceled, or incomplete saves do not use a credit</li>
+      <li>The same verified transaction is not granted twice on this install</li>
+      <li>Credits are not restorable after Delete Account or data loss on this device</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Acceptable use</h2>
+    <ul>
+      <li>Do not enter illegal, abusive, or infringing content</li>
+      <li>Do not attempt to interfere with StoreKit verification or local ledgers</li>
+      <li>Do not present Demo samples as live delivery to other people</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Disclaimer</h2>
+    <p>The app is provided “as is.” To the fullest extent allowed by law, Jicofuw is not liable for indirect or consequential damages arising from use of local replies, Demo samples, or lost credits after deletion.</p>
+  </section>
+
+  <section class="card">
+    <h2>Changes &amp; governing store rules</h2>
+    <p>We may update these Terms when the product changes. The “Last updated” date will change when we do. Apple’s Media Services Terms and App Store rules also apply to downloads and purchases.</p>
   </section>
 
   <p class="foot">Operated by <strong>Jicofuw</strong> · Forest night kitchen edition</p>
